@@ -53,13 +53,12 @@
         alt="Image of Yosemite">
 
     </section>
-    <section>
         <p>The audio and video of meeting recording is below:</p>
         <audio
         controls
         src="meeting_audio.mp3">
             <a href="meeting_audio.mp3"> </a>
-        </section>
+        </audio>
         <video controls width="250">
             <source src="meeting.mp4"
                     type="video/mp4">
@@ -67,22 +66,22 @@
     <footer>
         <p><b>Notice</b> the meeting happened at <strong>5PM</strong>.</p>
     </footer>
-    <form action="" method="get" class="insert">
-          <label for="name box">Your Name is: </label>
+    <form action="input" method="get" class="insert">
+          <label for="name_box">Your Name is: </label>
           <input type="text" name="name" id="name" required>
           </form>
 
     <fieldset>
               <legend>Choose your CSE course</legend>
           
-              <input type="course" id="110" value="SW">
-              <label for="kraken">CSE110</label><br>
+              <input id="110" value="SW">
+              <label>CSE110</label><br>
           
-              <input type="course" id="120" value="OS">
-              <label for="sasquatch">CSE120</label><br>
+              <input id="120" value="OS">
+              <label>CSE120</label><br>
           
-              <input type="course" id="130" value="PL" >
-              <label for="mothman">CSE13-</label>
+              <input id="130" value="PL" >
+              <label>CSE13-</label>
     </fieldset>
     <label for="textbox">A box to type whatever you want:</label>
 
@@ -90,8 +89,8 @@
           rows="6" cols="23">
 </textarea>
 
-<label for="choose_color">Choose a color:</label>
-<input list="colors" id="colors" name="colors">
+<label>Choose a color:</label>
+<input id="colors" name="colors">
 
 <datalist id="colors_choice">
     <option value="red">
