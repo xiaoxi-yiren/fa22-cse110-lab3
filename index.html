@@ -6,15 +6,116 @@
     
     <link rel="icon" href = "568182.png" />
   </head>
-  <body> 
+   
+    <nav class="index">
+        <ul>
+            <li class="index">Agenda</li>
+            <li class="index">Discussed Points</li>
+            <li class="index">Recording</li>
+        </ul>
+    </nav>
     <header>
-        Meeting Minutes of Oct 5th
+    <h1>Meeting Minutes</h1>
+    <h3>Oct 5</h3>
     </header>
     <main>
-        <p>The main content of this meeting minutes.</p>
+        <p>This is a sampele of <em>Meeting Minutes</em>.</p> <br>
+        The content doesn't matter that much.
     </main>
+    <details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+    </details>
+    <body>
+    <div class="important">
+    <section>
+        <h2>Agenda</h2>
+        <ol>
+            <li><h3>Meeting <span class="time">Time Discussion</span></h3></li>
+            <li><h3>Divide work among members</h3></li>
+        </ol>
+        
+    </section>
+    <hr>
+    </div>
+    <section>
+        <h2>Discussed Points</h2>
+        
+        <details>
+            <summary>Important Detail</summary>
+            not very important actually
+        </details>
+        <p>We should use <span class="time"><i><a href="https://www.when2meet.com">when2meet</a></i></span> to figure out the meeting time.</p>
+        
+        <p>We decided that the picture below to be our group pic.</p>
+        <details>
+        <img class="group_picture"
+        src="https://media.idownloadblog.com/wp-content/uploads/2014/08/Yosemite-wallpaper-thumbnail.png"
+        alt="Image of Yosemite">
+
+    </section>
+    <section>
+        <p>The audio and video of meeting recording is below:</p>
+        <audio
+        controls
+        src="meeting audio.mp3">
+            <a href="meeting audio.mp3">
+        </section>
+        <video controls width="250">
+            <source src="meeting.mp4"
+                    type="video/mp4">
     <footer>
-        <p>Notice the meeting time is 5PM.</p>
+        <p><b>Notice</b> the meeting happened at <strong>5PM</strong.</p>
     </footer>
+    <form action="" method="get" class="insert">
+          <label for="name box">Your Name is: </label>
+          <input type="text" name="name" id="name" required>
+          </form>
+
+    <fieldset>
+              <legend>Choose your CSE course</legend>
+          
+              <input type="course" id="110" value="SW">
+              <label for="kraken">CSE110</label><br>
+          
+              <input type="course" id="120" value="OS">
+              <label for="sasquatch">CSE120</label><br>
+          
+              <input type="course" id="130" value="PL" />
+              <label for="mothman">CSE13-</label>
+    </fieldset>
+    <label for="textbox">A box to type whatever you want:</label>
+
+<textarea id="textbox" name="textbox"
+          rows="6" cols="23">
+</textarea>
+
+<label for="choose color">Choose a color:</label>
+<input list="colors" id="colors" name="colors">
+
+<datalist id="colors">
+    <option value="red">
+    <option value="green">
+    <option value="blue">
+    <option value="organge">
+</datalist>
+
+<label for="select time">Choose the amount of time:</label>
+
+<select name="select time" id="select time">
+    <option value="">Choose from</option>
+    <option value="15s">Dog</option>
+    <option value="50s">Cat</option>
+    <option value="2min">Hamster</option>
+    <option value="5min">Parrot</option>
+    <option value="20min">Spider</option>
+    <option value="50min">Goldfish</option>
+</select>
+
+<button class="uselesss button"
+        type="button">
+    Nothing happens!
+</button>
+
   </body>
 </html>
