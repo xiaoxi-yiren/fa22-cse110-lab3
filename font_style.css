@@ -1,0 +1,115 @@
+/* All styles!*/
+@font-face {
+    font-family: "myFont";
+    src: url("https://fonts.google.com/download?family=Open%20Sans");
+  }
+body, h1 {
+    background-color: rgb(81, 177, 105);
+    color: hsl(270, 60%, 70%);
+  }
+  
+  h1 {
+    color: orange;
+    font-family: myFont;
+    
+  }
+
+
+  .index li {
+    font-size: 1.3em;
+    margin-top: 10px;
+    color: #FF0099;
+  }
+  .important li {
+    font-size: 1.3rem;
+    padding: 15px;
+    border-style: double;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    justify-self: start;
+
+  }
+  .time{
+    font-size: 0.7cm;
+    margin: 10px;
+    padding-bottom: 20px;
+    border-color: aliceblue;
+    display: inline;
+    position: relative;
+    top: 40px; left: 40px;
+
+  }
+  .one{
+    text-decoration: dotted;
+    text-align: center;
+    position: static;
+  }
+  
+  .group_picture{
+    font-size: 4mm;
+    width: 300px;
+    border-width: 30px;
+    display: block;
+    max-height: 1500px;
+  }
+  .insert{
+    font-size: 1Q;
+    height: 50px;
+    margin: auto;
+    border-radius: 8px;
+    max-width: 1500px;
+  }
+
+.useless_button:hover {
+    color: gold
+}
+
+.group_picture:active{
+    background: brown;
+    color: silver;
+}
+
+.index {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+    justify-content: space-around;
+}
+@media screen, print {
+    body {
+        font-size: 10pt;
+      }
+ }
+
+ #name {
+    color: gold;
+ }
+
+ a[class="two"] {
+    color: yellow;
+ }
+
+ main > p {
+    color: brown;
+ }
+
+ *.warning {
+    color: red;
+  }
+
+  div section {
+    color: green;
+  }
+
+  details ~ p {
+    color: lavender;
+  }
+
+  fieldset + label {
+    color: pink;
+  }
+
+  p.one {
+    background-color: beige;
+  }
